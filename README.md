@@ -5,6 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Project Course
 
 [The Angular Firebase Project Course](https://fireship.io/courses/angular/)
+
 [Kanban Demo](https://firestarter.fireship.io/)
 
 ### What Will I Build?
