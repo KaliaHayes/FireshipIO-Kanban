@@ -17,12 +17,14 @@ import { GoogleSigninDirective } from './user/google-signin.directive';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireAuthModule } from '@angular/fire/auth';
+import { UserModule } from './user/user.module';
+import { LoginPageComponent } from './user/login-page/login-page.component';
+import { EmailLoginComponent } from './user/email-login/email-login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    GoogleSigninDirective,
   ],
   imports: [
   BrowserModule,
@@ -31,7 +33,7 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
     SharedModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
-    AngularFireAuthModule
+    AngularFireAuthModule,
   ],
   providers: [
   ],

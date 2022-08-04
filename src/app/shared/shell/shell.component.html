@@ -17,7 +17,7 @@
                 *ngIf="isHandset$ | async">
                 <mat-icon>menu</mat-icon>
             </button>
-            <span class="logo">🔥 Angular Firestarter</span>
+            <span class="logo" routerLink="/">🔥 Angular Firestarter</span>
             <span class="fill-space"></span>
             <div *ngIf="!(isHandset$ | async)">
                 <a mat-button routerLink="/kanban">🍱 Kanban Demo</a>
